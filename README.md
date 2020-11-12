@@ -1,113 +1,70 @@
-![](https://static-cdn.jtvnw.net/jtv_user_pictures/fb425ddf-5e67-4c84-9210-8065809675f7-profile_banner-480.png)
-# Desafío 5 - 08/11/2020
+# Getting Started with Create React App
 
-Vamos a crear el frontend de un explorador de pokémones. Como inspiración, vamos a tomar el diseño realizado en 2019 por Saepul Nahwan:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![](https://cdn.dribbble.com/users/1171520/screenshots/6545819/dribbble.png)
+## Available Scripts
 
-En particular, nos vamos a enfocar en estas tres pantallas:
+In the project directory, you can run:
 
-![](https://cdn.dribbble.com/users/1171520/screenshots/6540871/pokedex2.png)
+### `yarn start`
 
-Hay vistas detalle del diseño en su perfil de Instagram [aquí](https://www.instagram.com/p/Bx_QWxThmmb/?utm_source=ig_web_copy_link) y un ejemplo de animaciones que se pueden implementar [aquí](https://www.instagram.com/p/ByElEIABvoj/?utm_source=ig_web_copy_link).
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Incluimos en este repositorio una [spritesheet](./pokemon_b_w_sprite_sheet__resource__by_petuniabubbles_d54otbx.png) (una imagen que contiene múltiples imágenes en una grilla) que podremos utilizar para agregar pokemones al proyecto.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## Condiciones del desafío
+### `yarn test`
 
-⛔ No hay implementación de backend en este proyecto, ni hace falta que estén todas las pantallas de la aplicación según el diseño.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-⛔ No es necesario crear una vista desktop de la aplicación, ya como buena pokedex, nos gusta que sea portable. Todo el diseño será mobile-first.
+### `yarn build`
 
-✅ Podrás usar cualquier framework para resolver el desafío, ya sea de CSS o JavaScript.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-✅ ¡Animate a experimentar! Hay muchísimas cosas que podrás aplicar a este desafío con la cantidad de elementos que hay en pantallas.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-✅ :new: **¡Podrás trabajar individualmente o podrán presentar el desafío en pareja!**
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Algunas preguntas para explorar
+### `yarn eject`
 
-- ¿Es posible crear un sistema de diseño con componentes?
-- ¿Se pueden estandarizar los colores de alguna manera?
-- ¿Cómo estructuramos la información de un pokemon para que podamos renderizarla en componentes?
-- ¿Qué oportunidades de animación hay?
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## 📚 Herramientas de consulta
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Podrás utilizar cualquier herramienta de búsqueda que necesites (amamos buscar en Google y leer Stack Overflow <3).
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Dejamos también un enlace sobre [cómo utilizar spritesheets con CSS](https://uniwebsidad.com/libros/css-avanzado/capitulo-1/rollovers-y-sprites).
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## ⏳ Tiempo
+## Learn More
 
-Para participar del torneo en vivo, tendrás **hasta el 13/11/2020 inclusive** para resolver el desafío.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Si estás participando como desafío personal, fuera del torneo, el tiempo recomendado del desafío es de hasta 5 días.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## 🤔 ¿Cómo presento mi código?
+### Code Splitting
 
-### Si tenés una cuenta en GitHub
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Hacé un fork de este repo:
+### Analyzing the Bundle Size
 
-![Presionar el botón Fork, situado al comienzo de la página](https://docs.github.com/assets/images/help/repository/fork_button.jpg)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Cloná tu fork, reemplazando `[TU_ALIAS]` con el nombre de tu cuenta de GitHub. Podés clonarlo utilizando la consola:
+### Making a Progressive Web App
 
-```
-git clone https://github.com/[TU_ALIAS]/DevOff-Desafio-[NUMERO]
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-También podés utilizar GitHub Desktop, tu IDE favorito, lo que gustes.
+### Advanced Configuration
 
-Cuando tu desafío esté listo, agrega la etiqueta `devoff-desafio-completado` a tu repositorio, siguiendo [estos pasos](https://docs.github.com/es/free-pro-team@latest/github/administering-a-repository/classifying-your-repository-with-topics#adding-topics-to-your-repository) o agrega en tu archivo `README.md` un texto que diga `¡Este desafío está terminado!`.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-**No olvides indicarnos si estás presentando el proyecto de manera individual o con otra persona.** Podrás hacer esto agregando los nombres de las personas participantes en un archivo `HUMANS.txt` [siguiendo este formato](http://humanstxt.org/ES/Standard.html).
+### Deployment
 
-### Si no tenés una cuenta en GitHub
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-[Podés hacer clic aquí y mágicamente se descargará un archivo comprimido con todo lo que contiene este repositorio](https://github.com/devoffarg/DevOff-Desafio-5/archive/master.zip).
+### `yarn build` fails to minify
 
-Cuando finalices la resolución del desafío, envianos un archivo ZIP con todo tu trabajo a través de [WeTransfer](https://wetransfer.com/) o una carpeta compartida en Google Drive. Luego, envíanos el link a devoff@codear.org o por Twitter a @DevOffArg.
-
-## ⚖ Código de conducta
-
-Participar de DevOff implica la aceptación de nuestro [Código de Conducta](https://github.com/devoffarg/codigo-de-conducta). 
-
-Ante cualquier consulta, podrás recurrir a nuestro [equipo de moderación](https://github.com/devoffarg/codigo-de-conducta#protocolo-de-moderaci%C3%B3n).
-
-## 💜 Agradecimientos
-
-### Jurados
-
-- ¡Gracias a [Gonzalo Pozzo](https://twitter.com/goncy) y [Magalí Domínguez](https://twitter.com/printmaga) por ser nuestros jurados!
-
-### Organizaciones aliadas
-
-¡Gracias a [Migue Moyano](https://twitter.com/elmiguedev), [Joel A. Villarreal Bertoldi](https://twitter.com/joelalejandro) y [Agustín Carrasco](https://twitter.com/asermax) del equipo de [CoDeAr](https://twitter.com/somoscodear) por dar una mano para que este proyecto sea posible! 
-
-### Créditos
-
-DevOff Argentina es un proyecto ideado por [Aldana Denise](https://twitter.com/gizmowis), con el apoyo de [CoDeAr](https://twitter.com/somoscodear).
-
-<!--
-## 🚀 Soluciones
-
-¡A continuación, listamos todas las soluciones que se fueron presentando para este desafío!
-
-🌟 Participantes EN VIVO:
-
-- Link, por Dev
-
-💜 Participantes de la comunidad:
-
-- Link, por Dev
-
-o
-
-### Lenguaje
-
-- Link, por Dev
--->
-
-# ¡Muchos éxitos y a codear!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
