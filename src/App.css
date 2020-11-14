@@ -104,12 +104,6 @@ h2 {
   color: var(--light-color);
 }
 
-.img {
-  position: absolute;
-  top: 46%;
-  left: 50%;
-}
-
 .chip {
   width: 100px;
   margin: 0.1em 0.4em 0em 0em;
@@ -150,11 +144,26 @@ h2 {
   justify-content: space-around;
 }
 
-#bulbasaur img, #ivysaur img, #venusaur img {
+.img {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#bigbulbasaur img, #bulbasaur img, #ivysaur img, #venusaur img {
   padding-left: 38px;
   line-height: 50px;
   background-image: url("./assets/sprites.png");
   background-repeat: no-repeat;
+}
+
+#bigbulbasaur img {
+  height: 150px;
+  width: 200px;
+  background-position: -112px -120px;
+  background-size: 6000%;   
 }
 
 #bulbasaur img {
@@ -162,13 +171,19 @@ h2 {
   width: 40px;
   background-position: -33px -28px;
 }
+
 #ivysaur img {
   height: 60px;
   width: 60px;
   background-position: -121px -22px;
 }
+
 #venusaur img {
   height: 72px;
   width: 82px;
   background-position: -205px -12px;
+}
+
+.progress {
+  height: 0.4em;
 }

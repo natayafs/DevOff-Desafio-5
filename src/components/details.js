@@ -39,7 +39,7 @@ export default function Details() {
             </div>
           </div>
           <div className="row img">
-            <p id="bulbasaur"><img src={Pixel} /></p>
+            <p id="bigbulbasaur"><img src={Pixel} /></p>
           </div>
         </div>
         <div className="footer">
