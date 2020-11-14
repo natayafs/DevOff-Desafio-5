@@ -1,12 +1,20 @@
 import Pokerouter from './pokemon/pokerouter';
+import KeyboardBackspaceIcon from '@material-ui/icons/KeyboardBackspace';
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
+import Pixel from './../assets/pixel.png';
 
 export default function Details() {
     return (
       <div className="container-fluid page" style={{backgroundColor: '#48d1b0'}}>
         <div className="header">
           <div className="row">
-            <div className="col-12">
-                <a href="/list" className="back1">Back</a>
+            <div className="col-6 text-left">
+              <a href="/list">
+                <KeyboardBackspaceIcon variant="contained" color="action"></KeyboardBackspaceIcon>
+              </a>
+            </div>
+            <div className="col-6 text-right">
+              <FavoriteBorderIcon variant="contained" color="action"></FavoriteBorderIcon>
             </div>
           </div>
           <div className="row name">
@@ -31,7 +39,7 @@ export default function Details() {
             </div>
           </div>
           <div className="row img">
-            IMG
+            <p id="bulbasaur"><img src={Pixel} /></p>
           </div>
         </div>
         <div className="footer">

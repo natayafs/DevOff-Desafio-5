@@ -1,8 +1,15 @@
+:root {
+  --dark-color: #404851;
+  --theme-color:#48d1b0;
+  --theme2-color:bisque;
+  --light-color: #ffffff;
+}
+
 .App {
   width: 100%;
   height: 100%;
   font-family: 'Alata', sans-serif;
-  color: #404851;
+  color: var(--dark-color);
 }
 
 .container-fluid {
@@ -16,11 +23,11 @@
 }
 
 .header {
-  background-color: #48d1b0;
+  background-color: var(--theme-color);
 }
 
 .footer {
-  background-color: white;
+  background-color: var(--light-color);
   border-radius: 35px 35px 0px 0px;
   font-size: 0.8em;
   color: grey;
@@ -31,7 +38,7 @@
   margin: 0;
 }
 
-.col-2, .col-4, .col-8, .col-6, .col-10 {
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10 {
   margin: 0;
   padding: 0;
 }
@@ -47,7 +54,7 @@
 }
 
 .card {
-  background-color: #48d1b0;
+  background-color: var(--theme-color);
   margin: 0.4em;
   border: none;
   border-radius: 20px;
@@ -60,46 +67,46 @@
   align-items: center;
   text-align: center;
   height: 100vh;
-  background-color: #48d1b0;
-  color: white;
+  background-color: var(--theme-color);
+  color: var(--light-color);
   line-height: 0;
 }
 
 .btn {
   margin: 4em;
   padding: 1em 2em;
-  background-color: white;
+  background-color: var(--light-color);
   border: none;
   border-radius: 20px;
-  color: #404851;
+  color: var(--dark-color);
 }
 
 h2 {
   font-weight: bold;
   font-size: xx-large;
-  color: #404851;
+  color: var(--dark-color);
 }
 
 .link {
-  color: #404851;
+  color: var(--dark-color);
   font-size: 16px;
 }
 
 .link:hover {
   line-height: 20px;
-  color: #404851;
+  color: var(--dark-color);
   text-decoration: underline solid #6c79db;
 }
 
 .name{
   display: flex;
   flex-direction: row;
-  color: white;
+  color: var(--light-color);
 }
 
 .img {
   position: absolute;
-  top: 48%;
+  top: 46%;
   left: 50%;
 }
 
@@ -110,7 +117,7 @@ h2 {
   border: none;
   border-radius: 20px;
   background-color: #61e1ca;
-  color: white;
+  color: var(--light-color);
   font-weight: bold;
 }
 
@@ -120,15 +127,15 @@ h2 {
 }
 
 .back1, .back1:hover, .pokecard, .pokecard:hover, .by {
-  color: white;
+  color: var(--light-color);
 }
 
 .by:hover {
-  color: bisque;
+  color: var(--theme2-color);
 }
 
 .back, .back:hover {
-  color: #404851;
+  color: var(--dark-color);
   text-decoration: none;
 }
 
@@ -143,23 +150,25 @@ h2 {
   justify-content: space-around;
 }
 
-/*Twitter Like
-
-<label>
-                  <input type="checkbox" hidden />
-                  <div class="kalp"></div>
-                </label>
-
-
-.kalp{
-  width: 60%;
-  height: 60%;
-  cursor: pointer;
+#bulbasaur img, #ivysaur img, #venusaur img {
+  padding-left: 38px;
+  line-height: 50px;
+  background-image: url("./assets/sprites.png");
+  background-repeat: no-repeat;
 }
-.kalp{
-    background-image: url('http://i.resimyukle.xyz/aM8UN.png');
+
+#bulbasaur img {
+  height: 40px;
+  width: 40px;
+  background-position: -33px -28px;
 }
-input:checked + .kalp{
-    background-position: -2800px 0;
-    transition: background 0.8s steps(28);
-}*/
+#ivysaur img {
+  height: 60px;
+  width: 60px;
+  background-position: -121px -22px;
+}
+#venusaur img {
+  height: 72px;
+  width: 82px;
+  background-position: -205px -12px;
+}

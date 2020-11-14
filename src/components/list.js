@@ -1,3 +1,4 @@
+import KeyboardBackspaceIcon from '@material-ui/icons/KeyboardBackspace';
 import Card from './card';
 
 export default function List() {
@@ -5,8 +6,10 @@ export default function List() {
       <div className="container-fluid page">
         <div className="footer">
           <div className="row">
-            <div className="col-12">
-              <a href="/" className="back">Back</a>
+            <div className="col-12 text-left">
+              <a href="/" className="back">
+                <KeyboardBackspaceIcon variant="contained" color="action"></KeyboardBackspaceIcon>
+              </a>
             </div>
             <div className="row">
               <div className="col-10 text-left">
