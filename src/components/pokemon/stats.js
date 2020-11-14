@@ -20,12 +20,12 @@ export default function Stats() {
       </div>
       <div className="row">
         <div className="col-3">Attack</div>
-        <div className="col-3">60</div>
+        <div className="col-3">49</div>
         <div className="col-6">
           <div className="progress">
             {" "}
             <div
-              className="progress-bar bg-success"
+              className="progress-bar bg-danger"
               role="progressbar"
               style={{ width: "60%" }}
               aria-valuenow="12"
@@ -37,7 +37,7 @@ export default function Stats() {
       </div>
       <div className="row">
         <div className="col-3">Defense</div>
-        <div className="col-3">48</div>
+        <div className="col-3">49</div>
         <div className="col-6">
           <div className="progress">
             {" "}
@@ -105,14 +105,14 @@ export default function Stats() {
       </div>
       <div className="row">
         <div className="col-3">Total</div>
-        <div className="col-3">317</div>
+        <div className="col-3">318</div>
         <div className="col-6">
           <div className="progress">
             {" "}
             <div
-              className="progress-bar bg-success"
+              className="progress-bar bg-primary"
               role="progressbar"
-              style={{ width: "317%" }}
+              style={{ width: "100%" }}
               aria-valuenow="12"
               aria-valuemin="0"
               aria-valuemax="100"
