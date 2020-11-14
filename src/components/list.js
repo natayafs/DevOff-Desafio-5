@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import KeyboardBackspaceIcon from '@material-ui/icons/KeyboardBackspace';
 import Card from './card';
 
@@ -7,9 +8,9 @@ export default function List() {
         <div className="footer">
           <div className="row">
             <div className="col-12 text-left">
-              <a href="/" className="back">
+              <Link to="/" className="back">
                 <KeyboardBackspaceIcon variant="contained" color="action"></KeyboardBackspaceIcon>
-              </a>
+              </Link>
             </div>
             <div className="row">
               <div className="col-10 text-left">

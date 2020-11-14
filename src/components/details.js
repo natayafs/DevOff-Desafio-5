@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Pokerouter from './pokemon/pokerouter';
 import KeyboardBackspaceIcon from '@material-ui/icons/KeyboardBackspace';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
@@ -9,9 +10,9 @@ export default function Details() {
         <div className="header">
           <div className="row">
             <div className="col-6 text-left">
-              <a href="/list">
+              <Link to="/list">
                 <KeyboardBackspaceIcon variant="contained" color="action"></KeyboardBackspaceIcon>
-              </a>
+              </Link>
             </div>
             <div className="col-6 text-right">
               <FavoriteBorderIcon variant="contained" color="action"></FavoriteBorderIcon>
