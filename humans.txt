@@ -1,12 +1,12 @@
 /* TEAM */                        
-Developer: Nataya Soledad Flores                      
-Site: natayafs@gmail.com              
-Twitter: @natayafs                      
+Developer: Nataya Soledad Flores
+Site: natayafs@gmail.com
+Twitter: @natayafs
 Location: Posadas, Argentina
 
                             
-/* SITE */                      
-Last update: 2020/11/13                            
+/* SITE */
+Last update: 2020/11/13
 Standards: HTML, CSS, Javascript
-Components: Bootstrap, jQuery, etc                   
+Components: Bootstrap, jQuery
 Software: ReactJS
